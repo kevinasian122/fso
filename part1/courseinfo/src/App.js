@@ -1,8 +1,10 @@
 const Header = (props) => {
   return (<h1>{props.course.name}</h1>)
 }
+
 const Content = (props) => {
   console.log(props.course.parts[0].name)
+  
   return (
    
     <div>
